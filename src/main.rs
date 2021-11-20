@@ -1,4 +1,5 @@
-use algorithm::algorithm::solution_of_Joseph_survival;
+use algorithm::algorithm as algorithm;
 fn main(){
-    solution_of_Joseph_survival::calculate();
+    // algorithm::solution_of_Joseph_survival::calculate();
+    algorithm::sequence_of_magic_cards::calculate();
 }
